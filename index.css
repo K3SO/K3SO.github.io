@@ -1,0 +1,74 @@
+/*
+>PALETA
+-0B2027
+-40798C
+-70A9A1
+-CFD7C7
+-F6F1D1
+*/
+.general{
+    background-color: #0B2027;
+    color:#CFD7C7;
+    font-family: 'Cambria';
+    text-align: center;
+}
+/*Barra superior*/
+.bar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #40798C;
+}
+#left{
+    float: left;
+}
+#right{
+    float: right;
+}
+li a{
+    display: block;
+    color: #CFD7C7;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: #70A9A1;
+    color: #0B2027;
+}
+li a.active{
+    background-color: #70A9A1;
+    color: #0B2027;
+}
+/*Divisiones*/
+div.section{
+    width: 80%;
+    border: #40798C;
+    border-style: solid;
+    border-radius: 25px;
+    margin: auto;
+}
+.title2{
+    border: #40798C;
+    border-width: 3px;
+    border-bottom-style: dotted;
+    width: fit-content;
+    margin: auto;
+    margin-top: 3px;
+}
+img{
+    width: 96%;
+    border-radius: 14px;
+    margin: auto;
+    margin-bottom: 1.2%;
+    margin-top: 1.2%;
+}
+/*Títulos*/
+.title1{
+    border: #40798C;
+    border-width: 5px;
+    border-bottom-style: dashed;
+    width: fit-content;
+    margin: auto;
+}
